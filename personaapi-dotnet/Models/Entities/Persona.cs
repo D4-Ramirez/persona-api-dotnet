@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace personaapi_dotnet.Models.Entities
 {
@@ -12,7 +11,6 @@ namespace personaapi_dotnet.Models.Entities
             Telefonos = new HashSet<Telefono>();
         }
 
-        [Key]
         public int Cc { get; set; }
         public string Nombre { get; set; } = null!;
         public string Apellido { get; set; } = null!;

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace personaapi_dotnet.Models.Entities
 {
@@ -11,7 +10,6 @@ namespace personaapi_dotnet.Models.Entities
             Estudios = new HashSet<Estudio>();
         }
 
-        [Key]
         public int Id { get; set; }
         public string? Nom { get; set; }
         public string? Des { get; set; }
