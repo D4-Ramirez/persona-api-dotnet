@@ -25,7 +25,7 @@ namespace personaapi_dotnet.Models.Entities
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=localhost;Database=persona_db;Trusted_Connection=False;User Id=SA;Password=Da_3552551!");
+                optionsBuilder.UseSqlServer("Name=ConnectionStrings:MainConnection");
             }
         }
 
