@@ -1,14 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using personaapi_dotnet.Models.Entities;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<TelefonoContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("TelefonoContext") ?? throw new InvalidOperationException("Connection string 'TelefonoContext' not found.")));
-builder.Services.AddDbContext<ProfesionContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("ProfesionContext") ?? throw new InvalidOperationException("Connection string 'ProfesionContext' not found.")));
-builder.Services.AddDbContext<PersonaContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("PersonaContext") ?? throw new InvalidOperationException("Connection string 'PersonaContext' not found.")));
-builder.Services.AddDbContext<EstudioContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("EstudioContext") ?? throw new InvalidOperationException("Connection string 'EstudioContext' not found.")));
+builder.Services.AddDbContext<personaapi_dbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("personaapi_dbContext") ?? throw new InvalidOperationException("Connection string 'personaapi_dbContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

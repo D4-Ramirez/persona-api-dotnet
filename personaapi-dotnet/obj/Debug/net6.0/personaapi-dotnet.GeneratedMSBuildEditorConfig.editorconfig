@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\davis\OneDrive\Escritorio\Documents\universidad\semestres\10o\arquitectura\laboratorios\personaapi-dotnet
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/davis/OneDrive/Escritorio/Documents/universidad/semestres/10o/arquitectura/laboratorios/personaapi-dotnet/Views/Estudio/List.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXN0dWRpb1xMaXN0LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/davis/OneDrive/Escritorio/Documents/universidad/semestres/10o/arquitectura/laboratorios/personaapi-dotnet/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
