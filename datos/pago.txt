@@ -1,0 +1,13 @@
+Felipe:
+	- Muy muy Mexicano + jugo: 15.000
+	- Galleta: 1.500
+	- TOTAL: 16.500
+Cami (PAGADO):
+	- Muy personalizado: 12.000
+	- TOTAL: 12.000
+Wisho:
+	- Muy personalizado + jugo: 13.000
+	- TOTAL: 13.000
+Andrés:
+	- Muy muy Fricasé de pollo: 15.000
+	- TOTAL: 15.000
