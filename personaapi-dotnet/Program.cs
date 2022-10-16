@@ -2,8 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using personaapi_dotnet.Models.Entities;
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<personaapi_dbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("personaapi_dbContext") ?? throw new InvalidOperationException("Connection string 'personaapi_dbContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
